@@ -1,87 +1,86 @@
 body {
     background: #333;
-    color: #fff;
     font-family: Calibri, Arial, sans-serif;
     font-size: 150%;
-    margin: 0
+    margin: 0;
      /* keep this */
-     /*-webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-     -box-sizing: border-box;*/
 }
+
 
 
 nav{
   float: right;
 }
 
-  nav ul{
-    list-style: none;
-  margin:0;
-}
-
+nav ul
+  {list-style: none;
+  margin:0;}
   nav li{
     float: right;
     padding: 40px;
-    margin: 0;
   }
 
-h1{
-  margin:0;
+header h1{margin:0;
    padding: 20px;
-   float:left;
- }
+ float: left;}
 
-header{
-  float: left;
+article {
+  color: #000;
+  width: 50%;
+  float:right;
+}
+
+header{float: left;
 width:100%;
 padding: 1em;
 background: #333;
+color: #fff;
 position:fixed;
--webkit-box-sizing:border-box;
+-webkit-footer-sizing:border-box;
 -moz-box-sizing:border-box;
- box-sizing: border-box;
+box-sizing:border-box;}
+
+
+img {display: block;
+margin:10px;}
+
+  h2, section > p {text-align:left;}
+
+
+section {overflow:auto;
+  padding: 50px;
 }
 
-
-
-article {
-  background: #fff;
-  color: #000;
-  width: 600px;
-  padding:10px 10px;
-  margin: 100px auto;
-}
-
-img {
-  display: block;
-margin:auto;
-}
-
-  h2, section > p {text-align:center;}
-
-
-section{
-  padding: 20px;
-}
 
 #cougar {
   background:#B26219;
-padding-top: 150px;
+  padding-top: 150px;
 }
+
 #lion {
   background: #FFD5AE;
 }
-#tiger {
-  background:#FFBD82;
+
+#tiger {background:#FFBD82;
 }
+
+div{
+  float: left;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+padding: 20px;}
+}
+
 
 footer > p {text-align:center;}
 
 footer{
   width:400px;
+  color:#fff;
 padding: 20px;
 margin: auto;
+text-align: center;
 }
 
 /* ----- suggested colors -----
